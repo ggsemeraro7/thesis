@@ -1,0 +1,195 @@
+_______________________________
+In silico Primer(s) search for: ENA|AAA68938|AAA68938.2 Sphingobium chlorophenolicum PcpD 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MET4577501|MET4577501.1 Ottowia thiooxydans ferredoxin-NADP reductase 
+___________________
+Position: 90->122	73%   Tm = 37.4°C
+
+5-actgcctgcatttacagctggcgctcatattga->
+   ||||| |  || ||| | ||| | ||||||||
+aacctgccagttttcacacccggctcgcatattgacgta
+
+Position: 850<-883	62%   Tm = 26.2°C
+
+<-ggcctggtagcactacacaaagactgacttcgtc-5
+  |||||||| || ||     | ||| |  | || |
+taccggaccaccgcgactacgtcctgtccaacgcggagaa
+
+
+>tcbq_5f_cdh_u_ita_tt 90->122
+ 5'-actgcctgcatttacagctggcgctcatattga
+>tcbq_5r_cdh_u_ita_agc 850<-883
+ 5'-ctgcttcagtcagaaacacatcacgatggtccgg
+
+>90-883 Amplicon size: 794bp Ta=72°C
+cctgccagttttcacacccggctcgcatattgacgtattcctgcccaatgggctcttgcgccagtactcgctgctcaacgactgccgggaacttggcgcttacgagattgccgtgtcgaaggcggcggcgagtcgaggcggatcgtcttgtgtgcatgccgatctgaaagaaggaggattcatcgatatcagcgaacctcgcaacaacttttcgctaaggatcgaacaccggaaattccagtttgtagcgggaggcattggcatcacacctatcctgtcgatgatccgctactgcgaaagccagggttgggattggagcttgctctacttggcgcgatcccgtgcgcatgccgcgtttcaggacgaactccgtgcgatcggcggaacacgagttcgatggcacttcgacgacgaggctggcaaactcttcgactttaccgatccgtcattcgcggtgcagccgggtgtgccgatctactgctgcggcccgacgcccgtgatgctcgcagtggagcaatattcgaacagtcaaccaaatagtcccgcctacttcgaatggttcgcacctccagccgtggctcgctccaatgaggttgtcgacacggtgttcagggtgaaattgcatcgcagtgacaagctgctggtggtgcccgagagcaaatccattctcgacgttctccaggagaacggatatgacctgccgtgctcttgccgtgaaggcatgtgccgcacctgcgagaccatcgtacttgacggagtaccggaccaccgcgactacgtcctgtccaacgcgg
+___________________
+Position: 90->122	73%   Tm = 37.4°C
+
+5-actgcctgcatttacagctggcgctcatattga->
+   ||||| |  || ||| | ||| | ||||||||
+aacctgccagttttcacacccggctcgcatattgacgta
+
+Position: 850<-883	65%   Tm = 41.8°C
+
+<-ggcctggtggcactacacaaagactgacttcgtc-5
+  ||||||||||| ||     | ||| |  | || |
+taccggaccaccgcgactacgtcctgtccaacgcggagaa
+
+
+>tcbq_5f_cdh_u_ita_tt 90->122
+ 5'-actgcctgcatttacagctggcgctcatattga
+>tcbq_5r_cdh_u_ita_ggc 850<-883
+ 5'-ctgcttcagtcagaaacacatcacggtggtccgg
+
+>90-883 Amplicon size: 794bp Ta=72°C
+cctgccagttttcacacccggctcgcatattgacgtattcctgcccaatgggctcttgcgccagtactcgctgctcaacgactgccgggaacttggcgcttacgagattgccgtgtcgaaggcggcggcgagtcgaggcggatcgtcttgtgtgcatgccgatctgaaagaaggaggattcatcgatatcagcgaacctcgcaacaacttttcgctaaggatcgaacaccggaaattccagtttgtagcgggaggcattggcatcacacctatcctgtcgatgatccgctactgcgaaagccagggttgggattggagcttgctctacttggcgcgatcccgtgcgcatgccgcgtttcaggacgaactccgtgcgatcggcggaacacgagttcgatggcacttcgacgacgaggctggcaaactcttcgactttaccgatccgtcattcgcggtgcagccgggtgtgccgatctactgctgcggcccgacgcccgtgatgctcgcagtggagcaatattcgaacagtcaaccaaatagtcccgcctacttcgaatggttcgcacctccagccgtggctcgctccaatgaggttgtcgacacggtgttcagggtgaaattgcatcgcagtgacaagctgctggtggtgcccgagagcaaatccattctcgacgttctccaggagaacggatatgacctgccgtgctcttgccgtgaaggcatgtgccgcacctgcgagaccatcgtacttgacggagtaccggaccaccgcgactacgtcctgtccaacgcgg
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MEY9316017|MEY9316017.1 Bradyrhizobium elkanii ferredoxin-NADP reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|CAB3726997|CAB3726997.1 Paraburkholderia rhynchosiae Tetrachlorobenzoquinone reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|PMS26921|PMS26921.1 Paraburkholderia rhynchosiae oxidoreductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|CAB3788263|CAB3788263.1 Paraburkholderia caffeinitolerans Tetrachlorobenzoquinone reductase 
+___________________
+Position: 90->122	73%   Tm = 49.2°C
+
+5-actgcctgcatttacagctggcgctcatatcga->
+  ||||||  | || ||  | || || ||||||||
+ccactgccgccgttcacgcccggtgcgcatatcgatgtg
+
+Position: 868<-901	76%   Tm = 41.0°C
+
+<-gggctagtagcactacacaaagactgacttcgtc-5
+  ||||||||||| || || |  ||| | ||||| |
+agcccgatcatcgcgacgtctacctgtccgaagcggagcg
+
+
+>tcbq_5f_cdh_u_ita_tc 90->122
+ 5'-actgcctgcatttacagctggcgctcatatcga
+>tcbq_5r_cdh_u_ita_aag 868<-901
+ 5'-ctgcttcagtcagaaacacatcacgatgatcggg
+
+>90-901 Amplicon size: 812bp Ta=72°C
+actgccgccgttcacgcccggtgcgcatatcgatgtgcatattccgtcccgtcaagccggtcgagatttcgtgcggcagtattcgctgtgcaacgcgcccggtgaaaccgaccgctacattctcggcgtgaagcgcgagcccgactcgcggggtgggtcgagcgcggtccacgcggaagttcacgaaggacaaacgctccagatcagctcgccgaagaatcacttcgcgcttcatggcgatgcctcgcgagcggtgttgttcgcggccggcattggcattacgccattgctcgccatggcgcaggcgctcttgcaggagcgccgcgccttcagcctccattacttcacgcgctcgcccgagcatattgcgttttccgggcagctccaggcgctggagtcgatggccggcgccttgcacatccacaccggcgcatcggtcgagggaacggcgcaggctatctccaccgcgctgcacggcatcgatccttcgtcgcacgtctacgcgtgcggcccggcgcctttcatgtcgatggttcaaacctgtatcgacgatcgattgccctcgactcagttccacgtcgagcatttttccgcgcccgcgagcgagaccaccggcgatgcctttttcgaagtgattgccgcgcgaagcggcgtgcgctgcggcgtggccccgggtgaaagcatcgtaggcgccttgcgccggcacggcatagaagtcgaggtctcgtgtgagcaaggcgtttgcggcacctgcctcacgcacgtgctggccggacagcccgatcatcgcgacgtctacctgtccgaagcgg
+___________________
+Position: 90->122	73%   Tm = 49.2°C
+
+5-actgcctgcatttacagctggcgctcatatcga->
+  ||||||  | || ||  | || || ||||||||
+ccactgccgccgttcacgcccggtgcgcatatcgatgtg
+
+Position: 868<-901	74%   Tm = 37.3°C
+
+<-gggctagtggcactacacaaagactgacttcgtc-5
+  |||||||| || || || |  ||| | ||||| |
+agcccgatcatcgcgacgtctacctgtccgaagcggagcg
+
+
+>tcbq_5f_cdh_u_ita_tc 90->122
+ 5'-actgcctgcatttacagctggcgctcatatcga
+>tcbq_5r_cdh_u_ita_gag 868<-901
+ 5'-ctgcttcagtcagaaacacatcacggtgatcggg
+
+>90-901 Amplicon size: 812bp Ta=72°C
+actgccgccgttcacgcccggtgcgcatatcgatgtgcatattccgtcccgtcaagccggtcgagatttcgtgcggcagtattcgctgtgcaacgcgcccggtgaaaccgaccgctacattctcggcgtgaagcgcgagcccgactcgcggggtgggtcgagcgcggtccacgcggaagttcacgaaggacaaacgctccagatcagctcgccgaagaatcacttcgcgcttcatggcgatgcctcgcgagcggtgttgttcgcggccggcattggcattacgccattgctcgccatggcgcaggcgctcttgcaggagcgccgcgccttcagcctccattacttcacgcgctcgcccgagcatattgcgttttccgggcagctccaggcgctggagtcgatggccggcgccttgcacatccacaccggcgcatcggtcgagggaacggcgcaggctatctccaccgcgctgcacggcatcgatccttcgtcgcacgtctacgcgtgcggcccggcgcctttcatgtcgatggttcaaacctgtatcgacgatcgattgccctcgactcagttccacgtcgagcatttttccgcgcccgcgagcgagaccaccggcgatgcctttttcgaagtgattgccgcgcgaagcggcgtgcgctgcggcgtggccccgggtgaaagcatcgtaggcgccttgcgccggcacggcatagaagtcgaggtctcgtgtgagcaaggcgtttgcggcacctgcctcacgcacgtgctggccggacagcccgatcatcgcgacgtctacctgtccgaagcgg
+
+
+_______________________________
+In silico Primer(s) search for: ENA|CAG7612942|CAG7612942.1 Streptomyces bryophytorum Tetrachlorobenzoquinone reductase 
+___________________
+Position: 102->134	64%   Tm = 51.9°C
+
+5-actgcctgcatttacagctggcgctcacatcga->
+   ||||| |  |      | ||||| ||||||||
+gcgctgcccggctggcagcccggcgcgcacatcgacctg
+
+Position: 826<-859	59%   Tm = 8.6°C
+
+<-ggcctggtagcactacacaaagactgacttcgtc-5
+  |||||||| || ||     | || || ||    |
+agccggaccaccgcgacagcgtcctcaccgacaaggagcg
+
+
+>tcbq_5f_cdh_u_ita_cc 102->134
+ 5'-actgcctgcatttacagctggcgctcacatcga
+>tcbq_5r_cdh_u_ita_agc 826<-859
+ 5'-ctgcttcagtcagaaacacatcacgatggtccgg
+
+>102-859 Amplicon size: 758bp Ta=72°C
+gctgcccggctggcagcccggcgcgcacatcgacctgctgctggccgagggcctggagcgccagtactcgctgtgcgggcagcccggcggggcgcagtggcggatcgccgtgctgcgggaggtggacgggcgcggcgggtcggacttcgtccacgcctgcgtgcgcccaggcgaccggctcagggcgcgcggcccgcgcaaccacttcccgctggagccggcgccgcgccaccgcttcgtcgccgggggcatcgggatcaccccgatcctccccatgctggtcgcggcctccgccgccgcctccgactggtcgctgctctacggcgggcgctcccgctcctccatggccttcgtcggggaactggcgcagggccaccccgccgcccgggtcaccctcgccaccgggccgctcgacctggacggctacctcgcgcacctgcgccagggcgaactcgtttacgcctgcggccccgcgtcgctgctggcggccgtcgaggcccgcgtcccggctgccgccctgcgcaccgagcgcttcaccgccgccgctgccggcaccgcgggcgacacggccttcgaggtcgaactcgcccggtccgggcaggtgctggccgtcccacgggaccgcagcatcctgcagacgctgcagcaggcgggcgtcggcgtcctgtactcctgcacggagggcacctgcggcacctgcgagaccgacgtcctggcgggcgagccggaccaccgcgacagcgtcctcaccgacaagg
+___________________
+Position: 102->134	64%   Tm = 51.9°C
+
+5-actgcctgcatttacagctggcgctcacatcga->
+   ||||| |  |      | ||||| ||||||||
+gcgctgcccggctggcagcccggcgcgcacatcgacctg
+
+Position: 826<-859	62%   Tm = 28.8°C
+
+<-ggcctggtggcactacacaaagactgacttcgtc-5
+  ||||||||||| ||     | || || ||    |
+agccggaccaccgcgacagcgtcctcaccgacaaggagcg
+
+
+>tcbq_5f_cdh_u_ita_cc 102->134
+ 5'-actgcctgcatttacagctggcgctcacatcga
+>tcbq_5r_cdh_u_ita_ggc 826<-859
+ 5'-ctgcttcagtcagaaacacatcacggtggtccgg
+
+>102-859 Amplicon size: 758bp Ta=72°C
+gctgcccggctggcagcccggcgcgcacatcgacctgctgctggccgagggcctggagcgccagtactcgctgtgcgggcagcccggcggggcgcagtggcggatcgccgtgctgcgggaggtggacgggcgcggcgggtcggacttcgtccacgcctgcgtgcgcccaggcgaccggctcagggcgcgcggcccgcgcaaccacttcccgctggagccggcgccgcgccaccgcttcgtcgccgggggcatcgggatcaccccgatcctccccatgctggtcgcggcctccgccgccgcctccgactggtcgctgctctacggcgggcgctcccgctcctccatggccttcgtcggggaactggcgcagggccaccccgccgcccgggtcaccctcgccaccgggccgctcgacctggacggctacctcgcgcacctgcgccagggcgaactcgtttacgcctgcggccccgcgtcgctgctggcggccgtcgaggcccgcgtcccggctgccgccctgcgcaccgagcgcttcaccgccgccgctgccggcaccgcgggcgacacggccttcgaggtcgaactcgcccggtccgggcaggtgctggccgtcccacgggaccgcagcatcctgcagacgctgcagcaggcgggcgtcggcgtcctgtactcctgcacggagggcacctgcggcacctgcgagaccgacgtcctggcgggcgagccggaccaccgcgacagcgtcctcaccgacaagg
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MET4579626|MET4579626.1 Ottowia thiooxydans ferredoxin-NADP reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|CAD5105989|CAD5105989.1 Pseudomonas sp. Wesi-4 Tetrachlorobenzoquinone reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MDH6194915|MDH6194915.1 Mycobacterium frederiksbergense ferredoxin-NADP reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MET4575807|MET4575807.1 Ottowia thiooxydans ferredoxin-NADP reductase 
+
+
+_______________________________
+In silico Primer(s) search for: ENA|MET4575932|MET4575932.1 Ottowia thiooxydans ferredoxin-NADP reductase 
+___________________
+Position: 102->134	79%   Tm = 54.3°C
+
+5-actgcctgcatttacagctggcgctcatatcga->
+  ||| || |  || |  |||||||||||||||||
+caacttcccgtgttcagcgctggcgctcatatcgacctt
+
+Position: 862<-895	79%   Tm = 49.0°C
+
+<-ggcctagtggcactacacaaagactgacttcgtc-5
+  ||||||||| | ||| || | |||| ||| ||||
+ttccggatcacagagatctggtgctgagtgaggcagagag
+
+
+>tcbq_5f_cdh_u_ita_tc 102->134
+ 5'-actgcctgcatttacagctggcgctcatatcga
+>tcbq_5r_cdh_u_ita_gac 862<-895
+ 5'-ctgcttcagtcagaaacacatcacggtgatccgg
+
+>102-895 Amplicon size: 794bp Ta=72°C
+acttcccgtgttcagcgctggcgctcatatcgaccttcaactgccaaacggacttatccgaagttattcgctgatcagcatgccgggcggcgttcatcattacgtgattggcgtgaataaggaccctcatagccgcggcggctctctctacgtacacgagaggatgcgacccggcgatgtcatcaccatcagccaccccagaaacaatttcccccttgaggaggacgccgatcattctgtactggtggcagggggaataggaataaccccgctgtggagcatgattcaacggctggagacgctggggcggtcgtgggagttgtactacgccgcccgatcccggcgaaatgcagcctttcttcaggagcttcggctgctctcggatgtccacccagcaaaggttcacttgagctttagtgaagaaccgggcggggccatgcttgacttggtaaaaatcgtcgccgtcgcaccgtctgcagcgcacctctattgctgcggcccggtgccaatgattgaagctttcgaaaaagctgcggcaggaaggcctcccgcaagagtccacaccgaattcttcgctgctcgtgagaaacctgacatggccggaggattcacagtggagctggctcgatcaggcatgatcgtctctgttgctacgggtaagacgattctcgatgctctactggacgctggcgttaacgcgccatattcatgccaggaaggtatttgcgggacatgccaggtgaatgttctcggcggcattccggatcacagagatctggtgctgagtgaggcag
+
+

@@ -1,0 +1,2104 @@
+_______________________________
+In silico Primer(s) search for: pre:pca10_15680 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative oxygenase electron transfer component (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfuw:kf707c_16670 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) flavodoxin reductase (ferredoxin-nadph reductases) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pae:pa3498 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (refseq) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paev:n297_3621 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paei:n296_3621 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paeo:m801_3486 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfuv:nlk61_07335 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfc:pfla506_5354 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanb; vanillate o-demethylase oxidoreductase (n) 
+___________________
+Position: 29->48	85%   Tm = 44.4°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||| 
+ccgcgtccacaccctgcgctatgaag
+
+Position: 150<-169	95%   Tm = 59.5°C
+
+<-ggaccacgcgtcgataagcg-5
+  |||||||||||| |||||||
+ggcctggtgcgcagttattcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctatgaagccgaaggcatcatcagcgtcgaactgcggcctttgggcgataccgtattcgcgccgttcgacgccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagttattcgc
+___________________
+Position: 29->48	85%   Tm = 44.4°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||| 
+ccgcgtccacaccctgcgctatgaag
+
+Position: 150<-169	90%   Tm = 56.8°C
+
+<-ggaccacgcgtcgatgagcg-5
+  |||||||||||| || ||||
+ggcctggtgcgcagttattcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctatgaagccgaaggcatcatcagcgtcgaactgcggcctttgggcgataccgtattcgcgccgttcgacgccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagttattcgc
+
+
+_______________________________
+In silico Primer(s) search for: pmud:nctc8068_05358 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanb; vanillate o-demethylase oxidoreductase (n) 
+___________________
+Position: 23->42	90%   Tm = 48.7°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||||
+ccgcgtccacaccctgcgctacgaag
+
+Position: 144<-163	80%   Tm = 44.0°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||| || || ||| 
+ggcctggtgcgtagttactcgttgct
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctacgaagccgaaggcattatcagcgtcgaactcagaccgttgggcgataccgtattcacgccgttcgacgccggttcgcacatcgacctgcatttggccaacggcctggtgcgtagttactcgt
+___________________
+Position: 23->42	90%   Tm = 48.7°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||||
+ccgcgtccacaccctgcgctacgaag
+
+Position: 144<-163	85%   Tm = 53.9°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||| || |||||| 
+ggcctggtgcgtagttactcgttgct
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctacgaagccgaaggcattatcagcgtcgaactcagaccgttgggcgataccgtattcacgccgttcgacgccggttcgcacatcgacctgcatttggccaacggcctggtgcgtagttactcgt
+
+
+_______________________________
+In silico Primer(s) search for: psv:pvlb_18300 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanillate o-demethylase oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: palk:psakl28_39360 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanillate o-demethylase oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psil:pma3_18885 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+___________________
+Position: 29->48	90%   Tm = 60.8°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||| ||||||||
+gctcgtgcacaccctgcgctacgaag
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+tcgtgcacaccctgcgctacgaagccgaaggcatcatcagcgtcgaattgcggccctatggcgacaccgtcttccctccgttcgaagccggctcgcacattgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 29->48	90%   Tm = 60.8°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||| ||||||||
+gctcgtgcacaccctgcgctacgaag
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+tcgtgcacaccctgcgctacgaagccgaaggcatcatcagcgtcgaattgcggccctatggcgacaccgtcttccctccgttcgaagccggctcgcacattgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: pez:hwq56_28435 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ppii:ql104_31085 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psam:hu731_015665 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+___________________
+Position: 29->48	85%   Tm = 44.4°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||| 
+ccgcgtccacaccctgcgctatgaag
+
+Position: 150<-169	95%   Tm = 59.5°C
+
+<-ggaccacgcgtcgataagcg-5
+  |||||||||||| |||||||
+ggcctggtgcgcagttattcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctatgaagccgaaggcatcatcagcgtcgaactgcggcctttgggcgataccgtattcgcgccgttcgacgccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagttattcgc
+___________________
+Position: 29->48	85%   Tm = 44.4°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| |||||| ||||||| 
+ccgcgtccacaccctgcgctatgaag
+
+Position: 150<-169	90%   Tm = 56.8°C
+
+<-ggaccacgcgtcgatgagcg-5
+  |||||||||||| || ||||
+ggcctggtgcgcagttattcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacaccctgcgctatgaagccgaaggcatcatcagcgtcgaactgcggcctttgggcgataccgtattcgcgccgttcgacgccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagttattcgc
+
+
+_______________________________
+In silico Primer(s) search for: pshh:hu773_000600 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+___________________
+Position: 29->48	85%   Tm = 50.9°C
+
+5-gcgtgcacaccatgcgctac->
+  ||||||| ||| ||||||| 
+ccgcgtgcataccctgcgctatgaag
+
+Position: 150<-169	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtgcataccctgcgctatgaagccgaaggcatcatcagcgtggagtttcggccgttgggcgataccgtgttcccgccgttcgaggccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagctactcgc
+___________________
+Position: 29->48	85%   Tm = 50.9°C
+
+5-gcgtgcacaccatgcgctac->
+  ||||||| ||| ||||||| 
+ccgcgtgcataccctgcgctatgaag
+
+Position: 150<-169	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgct
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtgcataccctgcgctatgaagccgaaggcatcatcagcgtggagtttcggccgttgggcgataccgtgttcccgccgttcgaggccggctcgcacatcgacctgcacctggccaacggcctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: ptk:exn22_08330 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: phyg:jty93_27045 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pskp:ku43p_13840 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psmz:v6l79_20675 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+___________________
+Position: 23->42	90%   Tm = 54.7°C
+
+5-gcgtgcacaccatgcgctac->
+  ||||||| ||| ||||||||
+ccgcgtgcataccctgcgctacgagg
+
+Position: 144<-163	80%   Tm = 51.9°C
+
+<-ggaccacgcgtcgataagcg-5
+   ||||||||||| || ||| 
+ggtctggtgcgcagttactcgttgct
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcataccctgcgctacgaggccgaaggcattatcagtgtcgaattgcgcccttacggtgacaccgtgttcgcacctttcgacgcgggttcacatattgacctgcacctgcccaacggtctggtgcgcagttactcgt
+___________________
+Position: 23->42	90%   Tm = 54.7°C
+
+5-gcgtgcacaccatgcgctac->
+  ||||||| ||| ||||||||
+ccgcgtgcataccctgcgctacgagg
+
+Position: 144<-163	85%   Tm = 59.7°C
+
+<-ggaccacgcgtcgatgagcg-5
+   ||||||||||| |||||| 
+ggtctggtgcgcagttactcgttgct
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcataccctgcgctacgaggccgaaggcattatcagtgtcgaattgcgcccttacggtgacaccgtgttcgcacctttcgacgcgggttcacatattgacctgcacctgcccaacggtctggtgcgcagttactcgt
+
+
+_______________________________
+In silico Primer(s) search for: psiv:lz023_04805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pim:oq460_00435 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rpi:rpic_4500 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+___________________
+Position: 23->42	90%   Tm = 61.3°C
+
+5-gcgtgcacaccacgcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 23->42
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 61.3°C
+
+5-gcgtgcacaccacgcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 23->42
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 58.1°C
+
+5-gcgtgcacaccaggcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 23->42
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 58.1°C
+
+5-gcgtgcacaccaggcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 23->42
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	95%   Tm = 63.0°C
+
+5-gcgtgcacaccatgcgctac->
+  |||||||| |||||||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	95%   Tm = 63.0°C
+
+5-gcgtgcacaccatgcgctac->
+  |||||||| |||||||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+
+
+_______________________________
+In silico Primer(s) search for: rpf:rpic12d_4632 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+___________________
+Position: 23->42	90%   Tm = 61.3°C
+
+5-gcgtgcacaccacgcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 23->42
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 61.3°C
+
+5-gcgtgcacaccacgcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 23->42
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 58.1°C
+
+5-gcgtgcacaccaggcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 23->42
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	90%   Tm = 58.1°C
+
+5-gcgtgcacaccaggcgctac->
+  |||||||| ||| |||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 23->42
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	95%   Tm = 63.0°C
+
+5-gcgtgcacaccatgcgctac->
+  |||||||| |||||||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	95%   Tm = 64.4°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 144<-163
+ 5'-gcgaatagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+___________________
+Position: 23->42	95%   Tm = 63.0°C
+
+5-gcgtgcacaccatgcgctac->
+  |||||||| |||||||||||
+gcgcgtgcacgccatgcgctacgaag
+
+Position: 144<-163	90%   Tm = 62.4°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctattcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 23->42
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 144<-163
+ 5'-gcgagtagctgcgcaccagg
+
+>23-163 Amplicon size: 141bp Ta=72°C
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+
+
+_______________________________
+In silico Primer(s) search for: rpj:n234_24525 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rmn:tk49_17075 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rin:acs15_4618 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+___________________
+Position: 1->18	80%   Tm = 57.4°C
+
+5-gcgtgcacaccacgcgctac->
+    |||||| ||| |||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 1->18
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 120<-139
+ 5'-gcgaatagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+___________________
+Position: 1->18	80%   Tm = 57.4°C
+
+5-gcgtgcacaccacgcgctac->
+    |||||| ||| |||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 1->18
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 120<-139
+ 5'-gcgagtagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+___________________
+Position: 1->18	80%   Tm = 53.8°C
+
+5-gcgtgcacaccaggcgctac->
+    |||||| ||| |||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 1->18
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 120<-139
+ 5'-gcgaatagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+___________________
+Position: 1->18	80%   Tm = 53.8°C
+
+5-gcgtgcacaccaggcgctac->
+    |||||| ||| |||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 1->18
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 120<-139
+ 5'-gcgagtagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+___________________
+Position: 1->18	85%   Tm = 59.5°C
+
+5-gcgtgcacaccatgcgctac->
+    |||||| |||||||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 1->18
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 120<-139
+ 5'-gcgaatagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+___________________
+Position: 1->18	85%   Tm = 59.5°C
+
+5-gcgtgcacaccatgcgctac->
+    |||||| |||||||||||
+    gtgcacgccatgcgctacgaag
+
+Position: 120<-139	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 1->18
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 120<-139
+ 5'-gcgagtagctgcgcaccagg
+
+>1-139 Amplicon size: 141bp Ta=72°C
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+
+
+_______________________________
+In silico Primer(s) search for: rwe:kol96_07595 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: reh:h16_b0739 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) h16_b0739; flavodoxin reductase (ferredoxin-nadph reductase) family 1 (n) 
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: cnc:cne_2c06820 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pobb; phenoxybenzoate dioxygenase subunit beta (n) 
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: cuh:bjn34_24895 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cti:ralta_b0575 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cbw:rr42_m2771 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) flavodoxin reductases (ferredoxin-nadph reductases) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cbw:rr42_s1575 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) flavodoxin reductases (ferredoxin-nadph reductases) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ccup:bkk81_20595 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cup:bkk80_21285 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cuu:bkk79_26500 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cpau:ehf44_27450 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cox:e0w60_08555 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cox:e0w60_20470 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ccam:m5d45_27255 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cuk:kb879_21125 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	95%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+  ||||||||||||||| ||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+___________________
+Position: 29->48	85%   Tm = 48.6°C
+
+5-gcgtgcacaccatgcgctac->
+  |||| ||| |||||||||| 
+gcgcgtccacgccatgcgctatgaag
+
+Position: 150<-169	100%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+  ||||||||||||||||||||
+ggcctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 29->48
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>29-169 Amplicon size: 141bp Ta=72°C
+gcgtccacgccatgcgctatgaagcgcgcggcgtggtcagcatcgaactgcaagatcccgaagggaagaccctgcccgagtacagcccgggcgcccatatcgacctgcacctgggcaacggcctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: cnan:a2g96_23660 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cupp:ctp10_r39540 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: papi:sg18_14725 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pve:uc34_06025 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pox:mb84_10465 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ptx:abw99_12525 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfg:ab870_17050 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pand:drb87_05410 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfib:pi93_022220 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain-containing protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pcom:ntu39_06945 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pann:panne5_03720 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: panx:oyt13_05275 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: boj:cbf45_01150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pig:egt29_10560 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pig:egt29_19400 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: kgy:ehf36_01335 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: park:lsg25_14010 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: dac:daci_0965 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: del:delcs14_5558 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) phthalate 4,5-dioxygenase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: dts:bi380_19870 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: dhk:bo996_04910 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: dla:i6g47_19800 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vap:vapar_3159 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+___________________
+Position: 26->45	80%   Tm = 56.7°C
+
+5-gcgtgcacaccacgcgctac->
+    |||||||| | |||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	80%   Tm = 56.7°C
+
+5-gcgtgcacaccacgcgctac->
+    |||||||| | |||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	80%   Tm = 53.0°C
+
+5-gcgtgcacaccaggcgctac->
+    |||||||| | |||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	80%   Tm = 53.0°C
+
+5-gcgtgcacaccaggcgctac->
+    |||||||| | |||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	85%   Tm = 58.8°C
+
+5-gcgtgcacaccatgcgctac->
+    |||||||| |||||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	85%   Tm = 58.8°C
+
+5-gcgtgcacaccatgcgctac->
+    |||||||| |||||||||
+cctggtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vpe:varpa_3582 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase fad/nad(p)-binding domain protein (n) 
+___________________
+Position: 26->45	85%   Tm = 60.5°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||| | |||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	85%   Tm = 60.5°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||| | |||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	85%   Tm = 57.4°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||| | |||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	85%   Tm = 57.4°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||| | |||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 62.3°C
+
+5-gcgtgcacaccatgcgctac->
+   ||||||||| |||||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 62.3°C
+
+5-gcgtgcacaccatgcgctac->
+   ||||||||| |||||||||
+cctcgtgcacacgatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vpd:vapa_1c32460 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative fad/nad(p)-binding oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vbo:cky39_14805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vaz:h7f35_33940 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vav:ig196_12455 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: vae:rze79_13030 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	85%   Tm = 58.6°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 64.7°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	85%   Tm = 58.6°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 64.7°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	85%   Tm = 58.6°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 64.7°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||| 
+gggctggtgcgcagctactcgttgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+
+
+_______________________________
+In silico Primer(s) search for: vaw:sfb74_19150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 63.9°C
+
+5-gcgtgcacaccacgcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_c 26->45
+ 5'-gcgtgcacaccacgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	90%   Tm = 61.1°C
+
+5-gcgtgcacaccaggcgctac->
+   ||||||||||| |||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_g 26->45
+ 5'-gcgtgcacaccaggcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	90%   Tm = 61.7°C
+
+<-ggaccacgcgtcgataagcg-5
+   |||||||||||||| ||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_a 150<-169
+ 5'-gcgaatagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+___________________
+Position: 26->45	95%   Tm = 65.3°C
+
+5-gcgtgcacaccatgcgctac->
+   |||||||||||||||||||
+cctcgtgcacaccatgcgctacgagg
+
+Position: 150<-169	95%   Tm = 67.0°C
+
+<-ggaccacgcgtcgatgagcg-5
+   |||||||||||||||||||
+gggctggtgcgcagctactcgctgtg
+
+
+>tcbq_7f_dgp_k_all_t 26->45
+ 5'-gcgtgcacaccatgcgctac
+>tcbq_7r_dgp_k_all_g 150<-169
+ 5'-gcgagtagctgcgcaccagg
+
+>26-169 Amplicon size: 144bp Ta=72°C
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+
+
+_______________________________
+In silico Primer(s) search for: ctt:ctcnb1_4601 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ctes:o987_27295 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: codo:lad35_19190 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: crj:qmy55_23530 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cenp:m9799_18545 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cpis:hs961_04225 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyr:bsy239_3348 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyb:q5w_24670 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyda:absy19_17160 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: drg:h9k76_11925 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ater:mw290_29035 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hrb:hrubri_1309 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative ferredoxin:oxidoreductase fnr-like protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hfr:g5s34_07830 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+

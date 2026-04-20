@@ -1,0 +1,372 @@
+_______________________________
+In silico Primer(s) search for: steq:icj04_16820 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pre:pca10_15680 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative oxygenase electron transfer component (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfuw:kf707c_16670 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) flavodoxin reductase (ferredoxin-nadph reductases) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pae:pa3498 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (refseq) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paev:n297_3621 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paei:n296_3621 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paec:m802_3620 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: paeo:m801_3486 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pcq:pcp3b5_07920 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pobb_1; phenoxybenzoate dioxygenase subunit beta (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pfuv:nlk61_07335 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psv:pvlb_18300 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanillate o-demethylase oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: palk:psakl28_39360 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) vanillate o-demethylase oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psil:pma3_18885 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pez:hwq56_28435 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pshh:hu773_000600 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ptk:exn22_08330 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: phyg:jty93_27045 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pskp:ku43p_13840 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psmz:v6l79_20675 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: psiv:lz023_04805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: eaz:jht90_04155 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ento:mtz49_08520 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vrs:v8f66_21060 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rpj:n234_24525 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rin:acs15_4618 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: reh:h16_b0739 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) h16_b0739; flavodoxin reductase (ferredoxin-nadph reductase) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cnc:cne_2c06820 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pobb; phenoxybenzoate dioxygenase subunit beta (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cuh:bjn34_24895 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+>tcbq_3f_cdh_k_ita_cc 549->581
+ 5'-ccagcccgcagacacccacttctactgctgcgg
+>tcbq_3r_cdh_k_ita_ccg 823<-856
+ 5'-ggtcagggtcgccctccagcactcccgtctcgca
+
+>549-856 Amplicon size: 308bp Ta=72°C
+ccaggatgcgcagacgcacctctactgctgcggccccggcccgatgctgaaggcgttcgaggcggcctgcgaggcgcacggctacgcgaacgtgcatatcgagcgctttgccgccgacccctcgaccgaggcggtgcaggagggcgagtacaccgtgtcgctgtcgcgcaccggcaccatcgtcaaagtgccgtccggcaagtcgctgctggacgcgctgctcgatgccggcgtgcagatggactacagctgccgcgaaggcgtgtgcggctcgtgcgagacggcagtgctggaaggctgccccgacc
+
+
+_______________________________
+In silico Primer(s) search for: reu:reut_b4797 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin:oxidoreductase fad/nad(p)-binding:oxidoreductase fad-binding region (n) 
+
+
+_______________________________
+In silico Primer(s) search for: reu:reut_b5777 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) phthalate 4,5-dioxygenase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cti:ralta_b0575 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cbw:rr42_m2771 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) flavodoxin reductases (ferredoxin-nadph reductases) family 1 (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ccup:bkk81_20595 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cup:bkk80_21285 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cuu:bkk79_26500 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cpau:ehf44_27450 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ccam:m5d45_27255 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cuk:kb879_21125 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cnan:a2g96_23660 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cupp:ctp10_r39540 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bgp:bgl_2c01180 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative flavodoxin reductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bpla:bpln_1p1360 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative phthalate 4,5-dioxygenase oxygenase subunit (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bpla:bpln_2g01180 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin:oxidoreductase fad/nad(p)-binding subunit (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bge:bc1002_4697 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bpy:bphyt_4243 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ppai:e1956_21970 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ppai:e1956_36270 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pspu:na29_21435 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) hypothetical protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pox:mb84_08065 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pnr:at302_05955 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) hypothetical protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bfz:bau07_13835 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: bgm:cal15_17825 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) hypothetical protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: alcn:mid00_06155 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pig:egt29_10560 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: pig:egt29_19400 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: park:lsg25_14010 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rhob:hty51_11760 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vap:vapar_3159 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vpe:varpa_3582 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase fad/nad(p)-binding domain protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vpd:vapa_1c32460 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative fad/nad(p)-binding oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vpd:vapa_2c09730 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative phenoxybenzoate dioxygenase, subunit beta (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vbo:cky39_14805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vaz:h7f35_33940 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vav:ig196_12455 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vae:rze79_13030 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: vaw:sfb74_19150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ctes:o987_28190 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cenp:m9799_18545 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyb:q5w_01280 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_11635 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_30140 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_30190 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_30240 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_30385 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyn:f9k07_30435 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: htn:ki616_03630 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hyy:jnx00_07015 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: dih:g7047_06755 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: smio:catmq487_34520 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: ater:mw290_29035 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hht:f506_19590 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: hee:hmeg3_00175 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: mvar:masn3_30340 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: mum:fcl38_03880 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: apet:ton1_02080 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase fad/nad(p)-binding domain-containing protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: meso:bsq44_11255 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) hypothetical protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: rhz:rhplan_44340 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 4-aminobenzenesulfonate 3,4-dioxygenase reductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: xdi:ezh22_10380 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n) 
+
+
+_______________________________
+In silico Primer(s) search for: cbot:ate48_17525 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n) 
+
+
+_______________________________
+In silico Primer(s) search for: strl:hep84_46900 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster-binding protein (n) 
+
+
+_______________________________
+In silico Primer(s) search for: srpz:hep85_06540 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster-binding protein (n) 
+
+

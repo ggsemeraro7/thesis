@@ -1,0 +1,50 @@
+>psil:pma3_18885 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n)|tcbq_7f_dgp_k_all_t:29-48|tcbq_7r_dgp_k_all_g:169-150|141bp
+tcgtgcacaccctgcgctacgaagccgaaggcatcatcagcgtcgaattgcggccctatggcgacaccgtcttccctccgttcgaagccggctcgcacattgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>rpi:rpic_4500 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n)|tcbq_7f_dgp_k_all_t:23-42|tcbq_7r_dgp_k_all_a:163-144|141bp
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+>rpf:rpic12d_4632 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n)|tcbq_7f_dgp_k_all_t:23-42|tcbq_7r_dgp_k_all_a:163-144|141bp
+gcgtgcacgccatgcgctacgaagcccaaggcatcgtgagcgtggagctgcgcgatgtcgacggcaaaacgctgcccgagtacgcacccggcgcgcatatcgaactgcatctcggcaacgggctggtgcgcagctattcgc
+>rin:acs15_4618 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n)|tcbq_7f_dgp_k_all_t:1-18|tcbq_7r_dgp_k_all_a:139-120|141bp
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+>rin:acs15_4618 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) 2fe-2s iron-sulfur cluster binding domain protein (n)|tcbq_7f_dgp_k_all_t:1-18|tcbq_7r_dgp_k_all_g:139-120|141bp
+gtgcacgccatgcgctacgaagcccagggcatcgtgagcgtggagctgcgcgatgtggacggcaagaccctgcccgagtacgcgccgggcgcacatatcgacctgcacctgggcaatggcctggtgcgcagctactcgctg
+>vap:vapar_3159 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) ferredoxin (n)|tcbq_7f_dgp_k_all_t:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tggtgcacacgatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggcttcgcccgagacggagtttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vpe:varpa_3582 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase fad/nad(p)-binding domain protein (n)|tcbq_7f_dgp_k_all_t:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacacgatgcgctacgaggctgacggcatcgtcagtgtcgagttccggcctgccacgcccgccgtggacttcccggccttcgaagccggctcccacatcgacctgcatctgcccaacgggctggtgcgcagctactcgc
+>vpd:vapa_1c32460 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative fad/nad(p)-binding oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vpd:vapa_1c32460 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative fad/nad(p)-binding oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vpd:vapa_1c32460 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) putative fad/nad(p)-binding oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccgcccggcttcgcccgaaacggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vbo:cky39_14805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vbo:cky39_14805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vbo:cky39_14805 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vaz:h7f35_33940 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vaz:h7f35_33940 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vaz:h7f35_33940 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgcctgccgtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vav:ig196_12455 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vav:ig196_12455 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vav:ig196_12455 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vae:rze79_13030 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+>vae:rze79_13030 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+>vae:rze79_13030 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtcagcgtcgagttccggccggccacgccggcggtggactttcccgccttcgaggccggctcccacatcgacctgcacctgcccaacgggctggtgcgcagctactcgt
+>vaw:sfb74_19150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vaw:sfb74_19150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc
+>vaw:sfb74_19150 k21607 tetrachlorobenzoquinone reductase [ec:1.1.1.404] | (genbank) pdr/vanb family oxidoreductase (n)|tcbq_7f_dgp_k_all_c:26-45|tcbq_7r_dgp_k_all_g:169-150|144bp
+tcgtgcacaccatgcgctacgaggccgacggcatcgtgagcgtcgaattccggccggccacgcccgcggtggatttccccgccttcgaggccggctcacatatcgacctgcacctgcccaacgggctggtgcgcagctactcgc

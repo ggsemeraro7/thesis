@@ -1,0 +1,10 @@
+Primer Name, Primer Sequence 5'-3', Direction, Annealing Temperature (C), Primer Length (NT), Clamp Length (NT), Core length (NT(AA)), Degeneracy, Primer Location (AA), Primer Location (NT), Primer AA Sequence, Clamp Score,
+NnF-F 4x, GACGCTGAACATCTCCGCACCTCGGaayaaytt, forward, N/A,33,25, 8(3),4, 166-177, 498-530, mtLtISaPRNnF,54,
+dAF-F 8x, CTGCTGCGGCCCTGCGCCCATGCTGgaygcntt, forward, N/A,33,25, 8(3),8, 293-304, 879-911, YCCGPtPMLdAF,72,
+AFE-F 8x, CTGCGGCCCTGCGCCCATGCTGGACgcnttyga, forward, N/A,33,25, 8(3),8, 294-305, 882-914, CCGPtPMLdAFE,70,
+PDH-R 16x,GACGAAGTCAGTCTTGTCTTAGTGCyacyagncc,reverse,N/A,34,25,9(3),16,405-416,1213-1246,PDHRDsVLSka,61,
+GcK-R 16x,GTCTAGGTCGTGGTCAGCAAGTGGraaygtngg,reverse,N/A,33,24,9(3),16,429-440,1285-1317,GcKserLVLDL,61,
+ ,,,,,,,,,,,,
+Primer Design Variables,,,,,,,,,,,,
+Block making alignment tool, Codon table, Clamp length user set, Clamp length by temp, Max degeneracy, Core length, Strictness, Min AA conservation, 3' nucleotide, Min block length, Primer concentration, Restrict 3' nucleotide to G or C, Exclude Leu Ser and Arg from 3' region
+Muscle, codon table name,25, N/A,16,3,0,50, Invariant,5,5.00E-08, false, false

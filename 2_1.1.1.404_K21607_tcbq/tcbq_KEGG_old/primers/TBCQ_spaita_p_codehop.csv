@@ -1,0 +1,14 @@
+Primer Name, Primer Sequence 5'-3', Direction, Annealing Temperature (C), Primer Length (NT), Clamp Length (NT), Core length (NT(AA)), Degeneracy, Primer Location (AA), Primer Location (NT), Primer AA Sequence, Clamp Score,
+HID-F 6x, ACTGCCTCCATTTGCACCTGGCGCTcayathga, forward, N/A,33,25, 8(3),6, 49-60, 147-179, eLPpfepGAHID,63,
+HID-R 12x, GCACCAGGCCATTAGGCAGATGCAGrtcdatrtg, reverse, N/A,34,25, 9(3),12, 58-69, 172-205, HIDLHLPNGLvR,70,
+AFE-F 8x, TTGTGGCCCTGCGCCTATGCTGGATgcnttyga, forward, N/A,33,25, 8(3),8, 217-228, 651-683, CCGPgPMLdAFE,72,
+YCC-R 8x, ATGCATCCAGCATAGGCGCAGGGCCrcarcarta, reverse, N/A,34,25, 9(3),8, 216-227, 646-679, YCCGPgPMLdAF,72,
+CCG-R 16x, CAAATGCATCCAGCATAGGCGCAGGnccrcarca, reverse, N/A,34,25, 9(3),16, 217-228, 649-682, CCGPgPMLdAFE,73,
+CET-F 4x, TTGTAGAGAAGGCGTTTGTGGCACTtgygarac, forward, N/A,33,25, 8(3),4, 298-309, 894-926, SCrEGVCGsCET,70,
+PDH-F 8x, TGAAACAGGTGTGCTGGAAGGCGTTccngayca, forward, N/A,33,25, 8(3),8, 307-318, 921-953, CETrVLEGePDH,63,
+CET-R 16x, GATCAGGAACGCCTTCCAGCACACCngtytcrca, reverse, N/A,34,25, 9(3),16, 307-318, 919-952, CETrVLEGePDH,65,
+PDH-R 16x, CTGCTTTAGTCAGAACCGAATCACGrtgrtcngg, reverse, N/A,34,25, 9(3),16, 316-327, 946-979, PDHRDsvLsksE,60,
+ ,,,,,,,,,,,,
+Primer Design Variables,,,,,,,,,,,,
+Block making alignment tool, Codon table, Clamp length user set, Clamp length by temp, Max degeneracy, Core length, Strictness, Min AA conservation, 3' nucleotide, Min block length, Primer concentration, Restrict 3' nucleotide to G or C, Exclude Leu Ser and Arg from 3' region
+Muscle, codon table name,25, N/A,16,3,0,70, Invariant,5,5.00E-08, false, false

@@ -1,0 +1,392 @@
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_23176 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_284131 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_22125 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_9936 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_5999 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_299968 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_14292 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_21803 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_6073 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_9715 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_16321 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_197459 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_11719 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_71908 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_175678 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_272219 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_13577 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_3637 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_8081 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_813 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_20385 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_269257 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_298861 
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	95%   Tm = 61.2°C
+
+<-gcatcgcgcaccacacgtgc-5
+  |||||||| |||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_c 11672<-11691
+ 5'-cgtgcacaccacgcgctacg
+
+>11548-11691 Amplicon size: 144bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	95%   Tm = 61.2°C
+
+<-gcatcgcgcaccacacgtgc-5
+  |||||||| |||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_c 11672<-11691
+ 5'-cgtgcacaccacgcgctacg
+
+>11549-11691 Amplicon size: 143bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	95%   Tm = 64.3°C
+
+<-gcatcgcggaccacacgtgc-5
+  |||||||| |||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_g 11672<-11691
+ 5'-cgtgcacaccaggcgctacg
+
+>11548-11691 Amplicon size: 144bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	95%   Tm = 64.3°C
+
+<-gcatcgcggaccacacgtgc-5
+  |||||||| |||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_g 11672<-11691
+ 5'-cgtgcacaccaggcgctacg
+
+>11549-11691 Amplicon size: 143bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	100%   Tm = 64.9°C
+
+<-gcatcgcgtaccacacgtgc-5
+  ||||||||||||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_t 11672<-11691
+ 5'-cgtgcacaccatgcgctacg
+
+>11548-11691 Amplicon size: 144bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11672<-11691	100%   Tm = 64.9°C
+
+<-gcatcgcgtaccacacgtgc-5
+  ||||||||||||||||||||
+ctcgtagcgcatggtgtgcacgaggg
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_6f_dgp_k_all_t 11672<-11691
+ 5'-cgtgcacaccatgcgctacg
+
+>11549-11691 Amplicon size: 143bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacg
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	90%   Tm = 58.2°C
+
+<-catcgcgcaccacacgtgcg-5
+  ||||||| ||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_c 11673<-11692
+ 5'-gcgtgcacaccacgcgctac
+
+>11548-11692 Amplicon size: 145bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	90%   Tm = 61.4°C
+
+<-catcgcggaccacacgtgcg-5
+  ||||||| ||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_g 11673<-11692
+ 5'-gcgtgcacaccaggcgctac
+
+>11548-11692 Amplicon size: 145bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+___________________
+Position: 11548->11568	95%   Tm = 66.2°C
+
+5-agcgagtagctgcgcaccagg->
+  |||||||||||||||||||| 
+acagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	95%   Tm = 62.4°C
+
+<-catcgcgtaccacacgtgcg-5
+  ||||||||||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_6r_dgp_k_all_g 11548->11568
+ 5'-agcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_t 11673<-11692
+ 5'-gcgtgcacaccatgcgctac
+
+>11548-11692 Amplicon size: 145bp Ta=72°C
+agcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	90%   Tm = 58.2°C
+
+<-catcgcgcaccacacgtgcg-5
+  ||||||| ||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_c 11673<-11692
+ 5'-gcgtgcacaccacgcgctac
+
+>11549-11692 Amplicon size: 144bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	90%   Tm = 61.4°C
+
+<-catcgcggaccacacgtgcg-5
+  ||||||| ||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_g 11673<-11692
+ 5'-gcgtgcacaccaggcgctac
+
+>11549-11692 Amplicon size: 144bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+___________________
+Position: 11549->11568	95%   Tm = 62.4°C
+
+5-gcgagtagctgcgcaccagg->
+  ||||||||||||||||||| 
+cagcgagtagctgcgcaccagcccgt
+
+Position: 11673<-11692	95%   Tm = 62.4°C
+
+<-catcgcgtaccacacgtgcg-5
+  ||||||||||||||||||| 
+tcgtagcgcatggtgtgcacgagggc
+
+
+>tcbq_7r_dgp_k_all_g 11549->11568
+ 5'-gcgagtagctgcgcaccagg
+>tcbq_7f_dgp_k_all_t 11673<-11692
+ 5'-gcgtgcacaccatgcgctac
+
+>11549-11692 Amplicon size: 144bp Ta=72°C
+gcgagtagctgcgcaccagcccgttgggcaggtgcaggtcgatgtgggagccggcctcgaaggcgggaaagtccgtttcgggcgaagccgggcggaactcgacgctgacgatgccgtcggcctcgtagcgcatggtgtgcacga
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_301141 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_885 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_14856 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_26079 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_17653 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_313621 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_20962 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_3749 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_24494 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_53064 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_106318 
+
+
+_______________________________
+In silico Primer(s) search for: COL_SA_mg_mt_1290 
+
+
