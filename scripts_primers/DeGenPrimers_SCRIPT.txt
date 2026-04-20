@@ -1,0 +1,115 @@
+DeGenPrimers
+
+Dopo aver utilizzato codehop su R con questi comandi puoi usare la pipeline su ubuntu per degenprime:
+seqs_cmel2_kall <- readDNAStringSet(file.choose()) 
+(valuta la presenza di tandem repeats:
+repeats_tcbq_kall <- DetectRepeats(seqs_ldex_kseq)
+table(repeats_tcbq_kall$Index) #quando pochi repeats per sequenza si può procedere con l'allineamento senza mascherare i repeats, altrimenti è consigliabile mascherarli per evitare che influenzino negativamente l'allineamento)
+Align_seqs_cmel2_kall <- AlignSeqs(seqs_cmel2_kall)
+writeXStringSet(Align_seqs_cmel2_kall, file="C:/Users/gseme/OneDrive - University of Pisa/UniPi/Tesi/PRIMERS/tesiR/6_1.13.11.2_K00446_catE/DECIPHER_cmelk00446_kall.fasta")
+
+PROBLEMATICO! Quindi rispetta cd di lavoro e non lavorare in conda e non lasciare spazi dopo i due fucking punti: 
+
+(base) joe@Benji:~/DeGenPrime/build$ #DEVI TROVARTI QUI usa questo > cd /home/joe/DeGenPrime/build
+
+#1) CODICE PER TRASFORMARE IL MIO ALLINEAMENTO DECIPHER.fasta in format .clust
+seqret -sequence DECIPHER_cmelk00446_kall.fasta -outseq DECIPHER_cmelk00446_kall.clust -osformat2 clustal
+
+#2)CODICE PER OTTENERE PRIMER
+./degenprime --amplicon:50 --input_file:DECIPHER_cmelk00446_kall.clust --output_file:DECIPHER_cmelk00446_kall_p_degenpr.csv
+
+
+#Codice per ottenere primer in un certo range (nn ha funzionato per ora mi dice core dumped) > In realtà non ho bisogno che sia lungo come codehop
+./degenprime \
+  --input_file DECIPHER_MA_nt.clust\
+  --min_primer_len 30 \
+  --amplicon 50 \
+  > MA_p_degenpr_min30.csv
+
+
+#3)CODICE PER CALCOLARE LA DEGENERAZIONE  
+
+#Oppure se non funziona prova questo:
+awk -F',' 'BEGIN{
+  OFS=","
+  deg["A"]=1;deg["C"]=1;deg["G"]=1;deg["T"]=1
+  deg["R"]=2;deg["Y"]=2;deg["S"]=2;deg["W"]=2;deg["K"]=2;deg["M"]=2
+  deg["B"]=3;deg["D"]=3;deg["H"]=3;deg["V"]=3
+  deg["N"]=4
+}
+NR==1{
+  print $0,"Forward_deg","Reverse_deg"
+  next
+}
+{
+  f=toupper($2); r=toupper($3)
+
+  fd=1
+  for(i=1;i<=length(f);i++){
+    c=substr(f,i,1)
+    if(!(c in deg)){ fd="NA"; break }
+    fd*=deg[c]
+  }
+
+  rd=1
+  for(i=1;i<=length(r);i++){
+    c=substr(r,i,1)
+    if(!(c in deg)){ rd="NA"; break }
+    rd*=deg[c]
+  }
+
+  print $0,fd,rd
+}' DECIPHER_cmelk00446_kall_p_degenpr.csv> DECIPHER_cmelk00446_kall_p_degenpr_deg.csv
+
+
+
+##Amino acidi seqs check - se presenti caratteri sconosciuti individua chi e cosa.  
+./check_fasta EC_3.1.1.45_ntseqs.fasta 
+
+##Allineamento MUSCLE aa seq quando tante sequenze e troppo lento tramite CODEHOP
+muscle -align 1_EC_3.8.1.5_aaseqs.fasta -output MUSCLE_LINB_aa.fasta
+
+#Per allineamenti corposi usa -super5
+muscle -super5 1_EC_3.8.1.5_aaseqs.fasta -output MUSCLE_LINB_aa.fasta
+
+
+1_EC_3.8.1.5_aaseqs.fasta
+awk -F"," 'BEGIN{
+  OFS=",";
+  # Codici IUPAC e degenerazione
+  deg["A"]=1;deg["C"]=1;deg["G"]=1;deg["T"]=1;
+  deg["R"]=2;deg["Y"]=2;deg["S"]=2;deg["W"]=2;deg["K"]=2;deg["M"]=2;
+  deg["B"]=3;deg["D"]=3;deg["H"]=3;deg["V"]=3;
+  deg["N"]=4;
+}
+NR==1{
+  print $0,"Forward_Deg","Reverse_Deg";
+  next
+}
+{
+  f=toupper($2);  # Forward
+  r=toupper($3);  # Reverse
+
+  # Calcolo degenerazione forward
+  fd=1;
+  for(i=1;i<=length(f);i++){
+    c=substr(f,i,1);
+    if(c in deg){ fd*=deg[c] }
+    else{ fd=0; }
+  }
+
+  # Calcolo degenerazione reverse
+  rd=1;
+  for(i=1;i<=length(r);i++){
+    c=substr(r,i,1);
+    if(c in deg){ rd*=deg[c] }
+    else{ rd=0; }
+  }
+
+  print $0,fd,rd
+}' DECIPHER_LINB_uniprot_all_p_degenpr.csv > DECIPHER_LINB_uniprot_all_p_degenpr_degen.csv
+
+##CODEHOP
+#Per equenze molto numerose, non allineanili tramite codehop ma possibile a livello locale su ubuntu usa questo comando dove super5 velocizza l'allineamento, e dove automaticamente vengono dereplicate delle sequenze. 
+muscle -super5 KEGG_EC_1.13.11.2_K07104_aaseqs.fasta -output KEGG_EC_1.13.11.2_K07104_aaseqs_MUSCLE.fasta
+ 

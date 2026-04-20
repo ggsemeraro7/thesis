@@ -1,0 +1,170 @@
+SCRIPT PER OTTENERE FULLCDS
+
+path>  cd "/mnt/c/Users/gseme/OneDrive - University of Pisa/UniPi/Tesi/PRIMERS/tesiR"
+
+UNIPROT
+#DONWLOAD SEQ UNIPROT 
+
+#entries AA 
+seleziona le entry di interesse post filtraggio (EC number + batteri + protein level visualizzate + omologia ) >> download >> copia api >> su terminale scrivi: curl "APIpath" > nomefileAA.fasta 
+
+#entries NUCLEOTIDI
+seleziona le entry di interesse >> tools >> IDmap >> CCDS >> una volta il lavoro è completo copia API >> curl "APIpath" > nomefila_idsmapping.tsv >> su terminale scrivi:
+cut -f2 uniprot_IDmapping_cmebl.tsv | tail -n +2 | while read acc; do curl -s https://www.ebi.ac.uk/ena/browser/api/fasta/$acc; done > uniprot_EC3.1.1.45nt.fasta
+
+KEGG
+#DONWLOAD SEQ KEGG
+
+#Scarica lista nominativi batterici per filatrare solo queste sequenze 
+curl -s https://rest.kegg.jp/list/organism | awk -F'\t' '$4 ~ /Bacteria/ {print $2}' > bacteria_prefix.txt
+
+##SCRIPT SCARICA SEQUENZE PER EC DI REFERENZA (aa o nt)
+#Per avere accesso agli ID relativi a quel EC (Esempio EC: X.X.X.X)
+curl -s https://rest.kegg.jp/link/ko/ec:3.1.8.2
+ESEMPIO OUPUT > ec:1.1.1.404    ko:K21607 #valuta se ci sono più KO, devi scaricare entrambi
+
+#SOLO KO batteriche
+curl -s https://rest.kegg.jp/link/genes/ko:K21607 | cut -f2 |
+while read -r G; do
+    ORG=${G%%:*}
+    if grep -qx "$ORG" bacteria_prefix.txt; then
+        curl -s https://rest.kegg.jp/get/${G}/ntseq
+    fi
+done > EC_1.1.1.404_K21607_ntseqs.fasta
+
+[[#Per avere accesso alle sequenze nucleotidiche (come output HO OTTENUTO delle liste di riconoscimento, quindi ne scelgo uno e chiedo di avere in ID all'interno di queste sequenze)
+curl -s https://rest.kegg.jp/link/genes/ko:K21607
+ko:K21607       slig:GTU79_01065
+ko:K21607       pao:Pat9b_4735
+ko:K21607       steq:ICJ04_16820
+ko:K21607       pre:PCA10_15680
+ko:K21607       pfuw:KF707C_16670
+ko:K21607       pae:PA3498
+
+#Quindi per ognuno di questi scarico le sequenze nucleotidiche in questo modo (cambia solo /aaseq invece di /nntseq per aminoacidi)
+curl -s https://rest.kegg.jp/link/genes/ko:K07104 | cut -f2 | sort | uniq | while read G; do
+curl -s https://rest.kegg.jp/get/${G}/ntseq
+done > 	EC_1.13.11.2_K07104_ntseqs.fasta]]
+
+
+#Se vuoi vedere l'avanzamento apri un altra scheda con il seguente codice 
+tail -f EC_1.1.1.404_ntseqs.fasta #per lo scorrimento attuale 
+curl -s https://rest.kegg.jp/link/genes/ko:K07104| wc -l #per capire quanti geni devono essere trascritti in totale
+
+!! Scaricare seq una alla volta altrimenti sistema sovrascrive o presenta errori da accesso riportati nelle stesse seq .fasta. 
+
+#TABELLA OMOLOGIE
+
+##SCRIPT per diamond 
+#Crea database
+diamond makedb --in  uniprot_EC_3.8.1.5_linb_aa.fasta -d refdb_uniprot_aa
+
+#Crea tabella omologie
+diamond blastp --db refdb_uniprot_aa --query  ITApCDS_EC_3.8.1.5_K01563_AA.fasta --outfmt 6 --out diamond_EC_3.8.1.5_K01563_AA_uniprot.tsv
+((Add --sensitive if no hits > --sensitive → finds ~40% identity vs standards setting finds ~70% identity))  
+
+##SCRIPT per blastn > Per equenze nucleotidiche che io questo necessaria solo per seq UniProt perchè mostrano id seq aa/nt diverso quindi necessari singoli ID di estrazione; in alcuni casi anche per kegg
+
+##SCRIPT CONDA BLAST N
+#Crea database 
+makeblastdb -dbtype nucl -in   uniprot_EC_3.8.1.5_linb_nt.fasta -out file_blastn_u_linb/db_kegg_nt_linb
+
+#Crea tabella omologie
+blastn -db file_blastn_u_linb/db_kegg_nt_linb -query  ITApCDS_EC_3.8.1.5_K01563_NT.fasta -outfmt 6 -word_size 11 -out blastn_uniprot_EC_3.8.1.5_linb_NT.tsv
+
+#FILTRO SEQ MIGLIORE BLAST ED UNIVOCHE
+
+##FILTRAGGIO SEQUENZE 
+#COMANDO PER FILTRARE SOLO LA HIT CON E-VALUE PIU BASSO PER OGNI QUERY BLASTN/DIAMOND 
+gawk -F'\t' '
+NF<11 {next}  # salta righe strane/vuote
+{
+  q=$1
+  ev=$11+0
+
+  if (!(q in bestlen) || len>bestlen[q] || (len==bestlen[q] && ev<bestev[q])) {
+    bestlen[q]=len
+    bestev[q]=ev
+    best[q]=$0
+  }
+}
+END{
+  for (q in best) print best[q]
+}
+' blastn_uniprot_EC_3.8.1.5_linb_NT.tsv > best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv
+
+
+#COMANDO PER FILTRARE SOLO LE SEQUENZE UNIVOCHE DELLA SEQUENZA TARGET
+awk -F'\t' '
+{
+  key = $2
+  val = $11+0  # convertiamo in numero
+  if (!(key in min) || val < min[key]) {
+    min[key] = val
+    line[key] = $0
+  }
+}
+END {
+  for (k in line)
+    print line[k]
+}
+' best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv > unique_best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv
+
+##COMANDO PER ESTRARRE FULLCDS DA FILE EC OMNICOMPRENSIVO
+#Crea un file con le full CDS da utilizzare per le analisi successive (fullCDS_LINB_nt.fasta)
+cut -f2 unique_best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv | sort -u > ids_unique_best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv
+seqkit grep -f  ids_unique_best_Evalue_blastn_uniprot_EC_3.8.1.5_linb_NT.tsv   uniprot_EC_3.8.1.5_linb_nt.fasta > ITAfCDS_uniprot_EC_3.8.1.5_linb_nt.fasta
+
+
+
+OPTIONAL
+#Stats delle sequenze fasta:
+
+seqkit stats nameofthedataset.fasta
+
+
+PER PULIRE FILE FASTA DA SEQUENZE NON IDONEE
+##per pulizia aminoacidi 
+#visualizza cosa verrà rimosso
+seqkit grep -s -r -p "[^ACDEFGHIKLMNPQRSTVWY]" KEGG_EC_1.1.1.404_K21607_aaseqs_bact.fasta
+#rimuovi e crea file pulito
+seqkit grep -v -s -r -p "[^ACDEFGHIKLMNPQRSTVWY]"  KEGG_EC_1.1.1.404_K21607_aaseqs_bact.fasta > KEGG_EC_1.1.1.404_K21607_aaseqs_bact_clean.fasta
+
+
+
+ESEMPIO OUTPUT:
+file                       format  type  num_seqs  sum_len  min_len  avg_len  max_len
+uniprot_linb_all_nt.fasta  FASTA   DNA         61   52,470      186    860.2    1,242
+
+---
+TABELLA HEADERS
+   1.  qseqid      query or source (gene) sequence id
+
+   2.  sseqid      subject or target (reference genome) sequence id
+
+   3.  pident      percentage of identical positions
+
+   4.  length      alignment length (sequence overlap)
+
+   5.  mismatch    number of mismatches
+
+   6.  gapopen     number of gap openings
+
+   7.  qstart      start of alignment in query
+
+   8.  qend        end of alignment in query
+
+   9.  sstart      start of alignment in subject
+
+ 10.  send        end of alignment in subject
+
+ 11.  evalue      expect value
+
+ 12.  bitscore    bit score
+ 
+ qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore
+ 
+ qseqid 	sseqid 	pident	 length 	mismatch 	gapopen 	qstart 	qend 	sstart 	send 	evalue 	bitscore
+
+
+
