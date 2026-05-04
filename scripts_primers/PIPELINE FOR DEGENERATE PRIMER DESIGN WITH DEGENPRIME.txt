@@ -1,0 +1,211 @@
+############################################################
+# PIPELINE FOR DEGENERATE PRIMER DESIGN WITH DEGENPRIME
+############################################################
+
+# This workflow starts from a multiple sequence alignment generated in R
+# and continues in Ubuntu using DeGenPrime.
+
+
+############################################################
+# 1. ALIGN SEQUENCES IN R USING DECIPHER
+############################################################
+
+# Load input nucleotide sequences
+############################################################
+
+seqs_input <- readDNAStringSet(file.choose())
+
+
+############################################################
+# Detect tandem repeats
+############################################################
+
+repeats_input <- DetectRepeats(seqs_input)
+
+# Count repeats per sequence
+table(repeats_input$Index)
+
+# Note:
+# If only a few repeats are detected per sequence, alignment can usually
+# proceed without repeat masking.
+# If many repeats are detected, repeat masking is recommended to avoid
+# negative effects on the alignment.
+
+
+############################################################
+# Align sequences
+############################################################
+
+aligned_seqs <- AlignSeqs(seqs_input)
+
+
+############################################################
+# Export alignment in FASTA format
+############################################################
+
+writeXStringSet(
+    aligned_seqs,
+    file = "<WORKDIR>/<ALIGNMENT_FASTA>"
+)
+############################################################
+# 2. PREPARE THE WORKING ENVIRONMENT FOR DEGENPRIME
+############################################################
+
+# Move to the DeGenPrime build directory.
+# Use the correct working directory and avoid running the command from
+# an unrelated Conda environment if this causes execution issues.
+
+cd "<DEGENPRIME_BUILD_DIR>"
+
+# Example:
+# cd "/home/user/DeGenPrime/build"
+
+# Important:
+# DeGenPrime options may require the format:
+# --option:value
+# Avoid spaces after the colon.
+
+
+############################################################
+# 3. CONVERT DECIPHER FASTA ALIGNMENT TO CLUSTAL FORMAT
+############################################################
+
+seqret \
+    -sequence "<ALIGNMENT_FASTA>" \
+    -outseq "<ALIGNMENT_CLUSTAL>" \
+    -osformat2 clustal
+
+
+############################################################
+# 4. RUN DEGENPRIME TO DESIGN DEGENERATE PRIMERS
+############################################################
+
+./degenprime \
+    --amplicon:50 \
+    --input_file:"<ALIGNMENT_CLUSTAL>" \
+    --output_file:"<DEGENPRIME_OUTPUT_CSV>"
+
+
+############################################################
+# 4.1 Optional: set primer length parameters
+############################################################
+
+# Use this only if needed.
+# Depending on the DeGenPrime version and input alignment, some parameter
+# combinations may fail or produce runtime errors.
+
+./degenprime \
+    --input_file:"<ALIGNMENT_CLUSTAL>" \
+    --min_primer_len:30 \
+    --amplicon:50 \
+    --output_file:"<DEGENPRIME_OUTPUT_MINLEN_CSV>"
+
+
+############################################################
+# 5. CALCULATE FORWARD AND REVERSE PRIMER DEGENERACY
+############################################################
+
+# This script assumes that:
+# - the forward primer sequence is in column 2
+# - the reverse primer sequence is in column 3
+# - the input file is comma-separated
+
+awk -F',' '
+BEGIN {
+    OFS = ","
+
+    # IUPAC nucleotide degeneracy values
+    deg["A"] = 1
+    deg["C"] = 1
+    deg["G"] = 1
+    deg["T"] = 1
+
+    deg["R"] = 2
+    deg["Y"] = 2
+    deg["S"] = 2
+    deg["W"] = 2
+    deg["K"] = 2
+    deg["M"] = 2
+
+    deg["B"] = 3
+    deg["D"] = 3
+    deg["H"] = 3
+    deg["V"] = 3
+
+    deg["N"] = 4
+}
+
+NR == 1 {
+    print $0, "Forward_deg", "Reverse_deg"
+    next
+}
+
+{
+    forward = toupper($2)
+    reverse = toupper($3)
+
+    forward_deg = 1
+    for (i = 1; i <= length(forward); i++) {
+        base = substr(forward, i, 1)
+
+        if (!(base in deg)) {
+            forward_deg = "NA"
+            break
+        }
+
+        forward_deg *= deg[base]
+    }
+
+    reverse_deg = 1
+    for (i = 1; i <= length(reverse); i++) {
+        base = substr(reverse, i, 1)
+
+        if (!(base in deg)) {
+            reverse_deg = "NA"
+            break
+        }
+
+        reverse_deg *= deg[base]
+    }
+
+    print $0, forward_deg, reverse_deg
+}
+' "<DEGENPRIME_OUTPUT_CSV>" > "<DEGENPRIME_OUTPUT_WITH_DEGENERACY_CSV>"
+
+
+############################################################
+# 6. CHECK FASTA FILES FOR INVALID CHARACTERS
+############################################################
+
+# Use this command to check whether a FASTA file contains unknown
+# or unsupported characters.
+
+./check_fasta "<INPUT_FASTA>"
+
+############################################################
+# 7.1 Faster MUSCLE alignment for large datasets
+############################################################
+
+# For large datasets, use -super5 to speed up the alignment.
+# This mode is useful when sequence numbers are high and alignment with
+# other tools becomes too slow.
+
+muscle \
+    -super5 "<INPUT_AA_FASTA>" \
+    -output "<MUSCLE_AA_ALIGNMENT_FASTA>"
+
+
+############################################################
+# 8. RECOMMENDED PLACEHOLDER NAMING
+############################################################
+
+# <WORKDIR>                              Project working directory
+# <DEGENPRIME_BUILD_DIR>                 DeGenPrime build directory
+# <INPUT_FASTA>                          Input FASTA file
+# <INPUT_AA_FASTA>                       Input amino acid FASTA file
+# <ALIGNMENT_FASTA>                      DECIPHER alignment in FASTA format
+# <ALIGNMENT_CLUSTAL>                    Alignment converted to Clustal format
+# <DEGENPRIME_OUTPUT_CSV>                DeGenPrime primer output table
+# <DEGENPRIME_OUTPUT_MINLEN_CSV>         DeGenPrime output with primer length setting
+# <DEGENPRIME_OUTPUT_WITH_DEGENERACY_CSV> DeGenPrime output with degeneracy columns
+# <MUSCLE_AA_ALIGNMENT_FASTA>            MUSCLE amino acid alignment output

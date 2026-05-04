@@ -1,0 +1,361 @@
+############################################################
+# PIPELINE TO RETRIEVE FULL CDS (fCDS) FROM PARTIAL CDS (pCDS)
+############################################################
+
+# Move to the working directory
+cd "<WORKDIR>"
+
+# Example:
+# cd "/path/to/project_directory"
+
+
+############################################################
+# 1. DOWNLOAD REFERENCE SEQUENCES FROM UNIPROT
+############################################################
+
+############################
+# 1.1 Download amino acid sequences
+############################
+
+# In UniProt:
+# 1. Filter entries of interest, for example by:
+#    - EC number
+#    - taxonomic group
+#    - protein existence level
+#    - homology or annotation criteria
+# 2. Select the entries of interest.
+# 3. Download sequences in FASTA format.
+# 4. Copy the API URL.
+# 5. Download the FASTA file from the terminal.
+
+curl "<UNIPROT_API_URL>" > "<UNIPROT_AA_FASTA>"
+
+
+############################
+# 1.2 Download nucleotide sequences through ID mapping
+############################
+
+# In UniProt:
+# 1. Select the entries of interest.
+# 2. Go to Tools > ID mapping.
+# 3. Map UniProt IDs to nucleotide sequence identifiers, for example EMBL/ENA/CDS.
+# 4. Once the job is complete, copy the API URL.
+# 5. Download the ID mapping table.
+
+curl "<UNIPROT_ID_MAPPING_API_URL>" > "<UNIPROT_ID_MAPPING_TSV>"
+
+# Extract mapped nucleotide accessions and download nucleotide sequences from ENA.
+
+cut -f2 "<UNIPROT_ID_MAPPING_TSV>" | tail -n +2 | while read -r acc; do
+    curl -s "https://www.ebi.ac.uk/ena/browser/api/fasta/${acc}"
+done > "<UNIPROT_NT_FASTA>"
+
+
+############################################################
+# 2. DOWNLOAD REFERENCE SEQUENCES FROM KEGG
+############################################################
+
+############################
+# 2.1 Download the list of bacterial organism prefixes
+############################
+
+curl -s "https://rest.kegg.jp/list/organism" \
+| awk -F'\t' '$4 ~ /Bacteria/ {print $2}' \
+> "bacteria_prefix.txt"
+
+
+############################
+# 2.2 Retrieve KO identifiers associated with a target EC number
+############################
+
+# Replace <EC_NUMBER> with the target EC number.
+# Example format: 1.1.1.1
+
+curl -s "https://rest.kegg.jp/link/ko/ec:<EC_NUMBER>"
+
+# Example output:
+# ec:<EC_NUMBER>    ko:<KO_ID>
+
+# If multiple KO identifiers are returned, download sequences for each KO separately.
+
+
+############################
+# 2.3 Download bacterial nucleotide sequences for a KO identifier
+############################
+
+curl -s "https://rest.kegg.jp/link/genes/ko:<KO_ID>" | cut -f2 |
+while read -r gene_id; do
+    organism_prefix=${gene_id%%:*}
+
+    if grep -qx "$organism_prefix" "bacteria_prefix.txt"; then
+        curl -s "https://rest.kegg.jp/get/${gene_id}/ntseq"
+    fi
+done > "<KEGG_EC_KO_NT_FASTA>"
+
+
+############################
+# 2.4 Download bacterial amino acid sequences for a KO identifier
+############################
+
+curl -s "https://rest.kegg.jp/link/genes/ko:<KO_ID>" | cut -f2 |
+while read -r gene_id; do
+    organism_prefix=${gene_id%%:*}
+
+    if grep -qx "$organism_prefix" "bacteria_prefix.txt"; then
+        curl -s "https://rest.kegg.jp/get/${gene_id}/aaseq"
+    fi
+done > "<KEGG_EC_KO_AA_FASTA>"
+
+
+############################
+# 2.5 Monitor download progress
+############################
+
+# View the FASTA file while it is being written.
+tail -f "<OUTPUT_FASTA>"
+
+# Count the total number of genes associated with a KO identifier.
+curl -s "https://rest.kegg.jp/link/genes/ko:<KO_ID>" | wc -l
+
+# Note:
+# Download one dataset at a time to avoid server access errors or incomplete FASTA outputs.
+
+
+############################################################
+# 3. HOMOLOGY SEARCH
+############################################################
+
+############################################################
+# 3.1 Protein-level homology search with DIAMOND
+############################################################
+
+############################
+# Create DIAMOND database
+############################
+
+diamond makedb \
+    --in "<REFERENCE_AA_FASTA>" \
+    -d "<DIAMOND_DATABASE_NAME>"
+
+
+############################
+# Run DIAMOND blastp
+############################
+
+diamond blastp \
+    --db "<DIAMOND_DATABASE_NAME>" \
+    --query "<QUERY_AA_FASTA>" \
+    --outfmt 6 \
+    --out "<DIAMOND_OUTPUT_TSV>"
+
+# Optional:
+# Add --sensitive when few or no hits are found.
+# The sensitive mode can improve detection of more distant homologs.
+
+# Example:
+# diamond blastp \
+#     --db "<DIAMOND_DATABASE_NAME>" \
+#     --query "<QUERY_AA_FASTA>" \
+#     --outfmt 6 \
+#     --sensitive \
+#     --out "<DIAMOND_OUTPUT_TSV>"
+
+
+############################################################
+# 3.2 Nucleotide-level homology search with BLASTN
+############################################################
+
+# This step is useful when nucleotide identifiers differ from amino acid identifiers,
+# or when full CDS extraction requires nucleotide-level matching.
+
+############################
+# Create BLAST nucleotide database
+############################
+
+makeblastdb \
+    -dbtype nucl \
+    -in "<REFERENCE_NT_FASTA>" \
+    -out "<BLASTN_DATABASE_PREFIX>"
+
+
+############################
+# Run BLASTN
+############################
+
+blastn \
+    -db "<BLASTN_DATABASE_PREFIX>" \
+    -query "<QUERY_NT_FASTA>" \
+    -outfmt 6 \
+    -word_size 11 \
+    -out "<BLASTN_OUTPUT_TSV>"
+
+
+############################################################
+# 4. FILTER BEST HOMOLOGY HITS
+############################################################
+
+############################################################
+# 4.1 Select the best hit for each query sequence
+############################################################
+
+# BLAST/DIAMOND outfmt 6 columns:
+# 1  query ID
+# 2  subject ID
+# 3  percent identity
+# 4  alignment length
+# 5  mismatches
+# 6  gap openings
+# 7  query start
+# 8  query end
+# 9  subject start
+# 10 subject end
+# 11 e-value
+# 12 bit score
+
+# This command keeps one best hit per query.
+# Priority:
+# 1. longest alignment length
+# 2. lowest e-value
+# 3. highest bit score
+
+awk -F'\t' '
+NF < 12 {next}
+{
+    query = $1
+    aln_length = $4 + 0
+    evalue = $11 + 0
+    bitscore = $12 + 0
+
+    if (
+        !(query in best_aln_length) ||
+        aln_length > best_aln_length[query] ||
+        (aln_length == best_aln_length[query] && evalue < best_evalue[query]) ||
+        (aln_length == best_aln_length[query] && evalue == best_evalue[query] && bitscore > best_bitscore[query])
+    ) {
+        best_aln_length[query] = aln_length
+        best_evalue[query] = evalue
+        best_bitscore[query] = bitscore
+        best_line[query] = $0
+    }
+}
+END {
+    for (query in best_line)
+        print best_line[query]
+}
+' "<HOMOLOGY_OUTPUT_TSV>" > "<BEST_HITS_PER_QUERY_TSV>"
+
+
+############################################################
+# 4.2 Keep unique subject sequences
+############################################################
+
+# This command keeps one best query hit per subject sequence.
+# Priority:
+# 1. lowest e-value
+# 2. highest bit score
+
+awk -F'\t' '
+NF < 12 {next}
+{
+    subject = $2
+    evalue = $11 + 0
+    bitscore = $12 + 0
+
+    if (
+        !(subject in best_evalue) ||
+        evalue < best_evalue[subject] ||
+        (evalue == best_evalue[subject] && bitscore > best_bitscore[subject])
+    ) {
+        best_evalue[subject] = evalue
+        best_bitscore[subject] = bitscore
+        best_line[subject] = $0
+    }
+}
+END {
+    for (subject in best_line)
+        print best_line[subject]
+}
+' "<BEST_HITS_PER_QUERY_TSV>" > "<UNIQUE_BEST_HITS_TSV>"
+
+
+############################################################
+# 5. EXTRACT FULL CDS SEQUENCES
+############################################################
+
+# Extract unique subject IDs from the filtered homology table.
+
+cut -f2 "<UNIQUE_BEST_HITS_TSV>" | sort -u > "<FULL_CDS_IDS_TXT>"
+
+# Extract full CDS sequences from the reference nucleotide FASTA file.
+
+seqkit grep \
+    -f "<FULL_CDS_IDS_TXT>" \
+    "<REFERENCE_NT_FASTA>" \
+> "<FULL_CDS_OUTPUT_FASTA>"
+
+
+############################################################
+# 6. FASTA FILE QUALITY CONTROL
+############################################################
+
+############################
+# 6.1 FASTA statistics
+############################
+
+seqkit stats "<FASTA_FILE>"
+
+
+############################
+# 6.2 Detect invalid amino acid sequences
+############################
+
+# Display sequences containing characters other than the 20 standard amino acids.
+
+seqkit grep \
+    -s \
+    -r \
+    -p "[^ACDEFGHIKLMNPQRSTVWY]" \
+    "<AA_FASTA>"
+
+
+############################
+# 6.3 Remove invalid amino acid sequences
+############################
+
+seqkit grep \
+    -v \
+    -s \
+    -r \
+    -p "[^ACDEFGHIKLMNPQRSTVWY]" \
+    "<AA_FASTA>" \
+> "<AA_CLEAN_FASTA>"
+
+
+############################################################
+# 7. RECOMMENDED PLACEHOLDER NAMING
+############################################################
+
+# <WORKDIR>                  Project working directory
+# <EC_NUMBER>                Target EC number
+# <KO_ID>                    KEGG Orthology identifier
+# <UNIPROT_AA_FASTA>         UniProt amino acid FASTA file
+# <UNIPROT_NT_FASTA>         UniProt nucleotide FASTA file
+# <KEGG_EC_KO_AA_FASTA>      KEGG amino acid FASTA file for a given EC/KO
+# <KEGG_EC_KO_NT_FASTA>      KEGG nucleotide FASTA file for a given EC/KO
+# <REFERENCE_AA_FASTA>       Reference amino acid FASTA file
+# <REFERENCE_NT_FASTA>       Reference nucleotide FASTA file
+# <QUERY_AA_FASTA>           Query amino acid FASTA file
+# <QUERY_NT_FASTA>           Query nucleotide FASTA file
+# <DIAMOND_DATABASE_NAME>    DIAMOND database name
+# <BLASTN_DATABASE_PREFIX>   BLASTN database prefix
+# <HOMOLOGY_OUTPUT_TSV>      BLASTN or DIAMOND output table
+# <BEST_HITS_PER_QUERY_TSV>  Filtered table with best hit per query
+# <UNIQUE_BEST_HITS_TSV>     Filtered table with unique subject sequences
+# <FULL_CDS_IDS_TXT>         List of selected full CDS identifiers
+# <FULL_CDS_OUTPUT_FASTA>    Output FASTA file containing full CDS sequences
+# <AA_CLEAN_FASTA>           Cleaned amino acid FASTA file
+
+
+
+
+
